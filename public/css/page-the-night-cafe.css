@@ -10,6 +10,125 @@
     height: min(90%, 112rem);
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+section h1 {
+    margin:50px;
+    z-index: 999;
+}
+/*
+.topo-hero-image { 
+    overflow: hidden;
+    position: absolute;
+    width: 50%;
+    height: min(30%, 300px);
+    top: 70px;
+}
+
+.hero-image {
+    position: absolute;
+    width: 1851px;
+    height: 2303px;
+    left: 110px;
+    top: -440px;
+    background: url("../images/camille-couvez-H5PnIYI_1I0-unsplash.jpg") 100% no-repeat;
+    background-size: cover;
+    transform: rotate(280deg);
+}*/
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.content-paragraph-1 { 
+    padding: 50px 0 50px;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 50px;
+}
+
+.information { 
+    width: 95%;
+    height: 96px;
+
+}
+
+.information-year { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+}
+
+.firstrow { 
+    position: static;
+    width: 88px;
+    height: 18px;
+    left: 0px;
+    top: 0px;
+    opacity: 0.4;
+}
+
+.secondrow{ 
+    position: static;
+    width: 256px;
+    height: 18px;
+    top: 0px;
+}
+
+.information-medium { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+}
+
+.information-location { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+}
+
+.information-size { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+}
+
+/* INICIO INTRO */
+
+.intro { 
+    position: absolute;
+    width: 448px;
+    height: 100px;
+    left: calc(50% - 464px/2);
+    top: 952px;
+    text-transform: none;
+    margin-left: 50px;
+}
+
+.intro-span { 
+    font-size: 1.4rem;
+    line-height: 22px;
+}
+
 @media (min-width: 760px) {
 
     /* PROJECT HEADER */ 
@@ -249,7 +368,7 @@
 
     /* INICIO INFORMATION */
 
-    aside { 
+    .information { 
         position: absolute;
         width: 352px;
         height: 96px;
@@ -337,7 +456,6 @@
         align-items: center;
         padding: 0px;
 
-    
         flex: none;
         order: 3;
         flex-grow: 0;
@@ -388,7 +506,7 @@
         left: 87px;
         top: -148px;
         position: absolute;
-        background: url(../images/camille-couvez-H5PnIYI_1I0-unsplash.jpg) no-repeat;
+        background: url("../images/camille-couvez-H5PnIYI_1I0-unsplash.jpg") no-repeat;
         transform: rotate(270deg);
         background-size: cover;
     }
@@ -500,7 +618,7 @@
         left: 87px;
         top: -438px;
         position: absolute;
-        background: url(../images/camille-couvez-H5PnIYI_1I0-unsplash.jpg) no-repeat;
+        background: url("../images/camille-couvez-H5PnIYI_1I0-unsplash.jpg") no-repeat;
         transform: rotate(270deg);
         background-size: cover;
     }
@@ -647,7 +765,7 @@
         height: 24px;
         left: calc(50% - 1120px/2);
         top: 5278px;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     }
 
     .footer-left { 
