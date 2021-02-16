@@ -1,3 +1,15 @@
+#the-night-cafe {
+    text-align: center;
+    min-height: 100vh;
+    display:flex;
+}
+
+#container {
+    margin: auto;
+    width: min(90%, 112rem);
+    height: min(90%, 112rem);
+}
+
 @media (min-width: 760px) {
 
     /* PROJECT HEADER */ 
