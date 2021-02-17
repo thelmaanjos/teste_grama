@@ -675,8 +675,13 @@ footer {
         height: 256px;
         left: 0px;
         top: 0;
-    
         background: #000000;
+    }
+
+    .previous-elipse:hover,
+    .next-elipse:hover { 
+        background: url("../images/camille-couvez-H5PnIYI_1I0-unsplash.jpg") no-repeat;
+        background-size: cover;
     }
 
     .previous span { 
@@ -878,7 +883,6 @@ footer {
 
         background: #000000;
         opacity: 0.16;
-
     }
 
     .dribble-divider { 
